@@ -1,0 +1,316 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Tajawal', sans-serif;
+    text-align: right;
+
+}
+body#thankyou *{
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Tajawal', sans-serif;
+
+}
+/* -----------------------------navbar----------------------- */
+.nav-sec{
+    background-color: #fff;
+}
+.nav-item {
+    padding: 1rem 0.5rem;
+    display: flex;
+    align-items: center;
+}
+.nav-link{
+
+font-weight: 600;
+font-style: normal;
+color:rgba(33, 33, 33, 1) !important;
+font-size:0.8rem;
+letter-spacing:0.5px;
+}
+.home {
+    color:#cb292a  !important;
+}
+.tel {
+    color:#fff!important;
+     font-size:1.1rem;
+}
+.cta-btn{
+    background-color:#cb292a;
+    border: 1px solid #cb292a;
+    color: #fff;
+}
+
+
+
+/* ----------------hero section ------------------------ */
+.hero {
+    background-image:url(../imgs/Auto-Battery-10.jpg);
+    background-position: center;
+    background-size: cover;
+  
+
+}
+.hero-content h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    color:#cb292a;
+}
+.hero-content p {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    color:#000;
+}
+.hero-form {
+    width: 40%;
+}
+.margin {
+    margin-left: 4rem;
+}
+.card , .card-body {
+ background-color: #cb292a!important;
+}
+.card h2 {
+    color: #fff;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;  
+}.btn-send {
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    width: 80%;
+ 
+    background-color:#fdb605;
+}
+
+.help-block.with-errors {
+    color: #ff5050;
+    margin-bottom: 5px
+}
+
+
+
+
+
+
+
+/* ----------------contact section ------------------------ */
+.contact h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+}
+.contact i {
+    font-size: 2rem;
+}
+.contact a {
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* ----------------sticky phone mobile ------------------------ */
+.sticky-phone {
+    background-color: #cb292a;
+    color: #fff;
+    display: none;
+    z-index: 9999999999;
+}
+.sticky-phone p {
+    text-align: center !important;
+}
+/*---------------------copyrights--------------------------- */
+.copyright{
+    background-color:#221f20;
+}
+.copyright p {
+    text-align: center; 
+    width: 100%; color:
+     white;
+      padding-bottom: 20px;
+}
+
+/* ------------------responsivness--------------------- */
+@media (min-width:1399.9px){
+    
+}
+@media (min-width:1200px){
+
+}
+@media (max-width:991.98px){
+    .hero-form{
+        width: 80%;
+        margin: auto;
+    }
+    .margin{
+        margin-right: 0px;
+    }
+   
+}
+@media (max-width:980px) and (min-width:767.98px){
+   
+}
+@media (max-width:767.98px){
+    .hero-content h2 {
+        font-size: 1.5rem;
+    }
+    .hero-content p {
+        font-size: 1rem;
+    }
+    .sticky-phone {
+        display:block;
+        position: sticky;
+        bottom: 0;
+    }
+}
+@media (max-width:575.98px){
+   
+}
+@media (max-width:500px){
+  
+}
+
+
+
+
+
+
+
+/* sticky whatsapp */
+.phonering-alo-ph-img-circle {
+    width:60px;
+    height:60px;
+    bottom:5%;
+    left:2%;
+    position:fixed;
+    background:rgba(30,30,30,0.1) url(../imgs/whatsapp.png) no-repeat center center;
+    border-radius:100% !important;
+    border:2px solid transparent;
+    -webkit-animation:phonering-alo-circle-img-anim 1s infinite ease-in-out;
+    animation:phonering-alo-circle-img-anim 1s infinite ease-in-out;
+    -webkit-transform-origin:50% 50%;
+    -ms-transform-origin:50% 50%;
+    transform-origin:50% 50%;
+    background-size: cover;
+}
+
+
+
+.phonering-alo-phone.phonering-alo-green .phonering-alo-ph-img-circle {
+    background-color:#25D366;
+    background-color:#25D366
+}
+
+@-webkit-keyframes phonering-alo-circle-img-anim {
+    0% {
+        -webkit-transform:rotate(0) scale(1) skew(1deg)
+    }
+
+    10% {
+        -webkit-transform:rotate(-25deg) scale(1) skew(1deg)
+    }
+
+    20% {
+        -webkit-transform:rotate(25deg) scale(1) skew(1deg)
+    }
+
+    30% {
+        -webkit-transform:rotate(-25deg) scale(1) skew(1deg)
+    }
+
+    40% {
+        -webkit-transform:rotate(25deg) scale(1) skew(1deg)
+    }
+
+    50% {
+        -webkit-transform:rotate(0) scale(1) skew(1deg)
+    }
+
+    100% {
+        -webkit-transform:rotate(0) scale(1) skew(1deg)
+    }
+}
+
+@-webkit-keyframes phonering-alo-circle-img-anim {
+    0% {
+        -webkit-transform:rotate(0) scale(1) skew(1deg);
+                transform:rotate(0) scale(1) skew(1deg)
+    }
+
+    10% {
+        -webkit-transform:rotate(-25deg) scale(1) skew(1deg);
+                transform:rotate(-25deg) scale(1) skew(1deg)
+    }
+
+    20% {
+        -webkit-transform:rotate(25deg) scale(1) skew(1deg);
+                transform:rotate(25deg) scale(1) skew(1deg)
+    }
+
+    30% {
+        -webkit-transform:rotate(-25deg) scale(1) skew(1deg);
+                transform:rotate(-25deg) scale(1) skew(1deg)
+    }
+
+    40% {
+        -webkit-transform:rotate(25deg) scale(1) skew(1deg);
+                transform:rotate(25deg) scale(1) skew(1deg)
+    }
+
+    50% {
+        -webkit-transform:rotate(0) scale(1) skew(1deg);
+                transform:rotate(0) scale(1) skew(1deg)
+    }
+
+    100% {
+        -webkit-transform:rotate(0) scale(1) skew(1deg);
+                transform:rotate(0) scale(1) skew(1deg)
+    }
+}
+
+@keyframes phonering-alo-circle-img-anim {
+    0% {
+        -webkit-transform:rotate(0) scale(1) skew(1deg);
+                transform:rotate(0) scale(1) skew(1deg)
+    }
+
+    10% {
+        -webkit-transform:rotate(-25deg) scale(1) skew(1deg);
+                transform:rotate(-25deg) scale(1) skew(1deg)
+    }
+
+    20% {
+        -webkit-transform:rotate(25deg) scale(1) skew(1deg);
+                transform:rotate(25deg) scale(1) skew(1deg)
+    }
+
+    30% {
+        -webkit-transform:rotate(-25deg) scale(1) skew(1deg);
+                transform:rotate(-25deg) scale(1) skew(1deg)
+    }
+
+    40% {
+        -webkit-transform:rotate(25deg) scale(1) skew(1deg);
+                transform:rotate(25deg) scale(1) skew(1deg)
+    }
+
+    50% {
+        -webkit-transform:rotate(0) scale(1) skew(1deg);
+                transform:rotate(0) scale(1) skew(1deg)
+    }
+
+    100% {
+        -webkit-transform:rotate(0) scale(1) skew(1deg);
+                transform:rotate(0) scale(1) skew(1deg)
+    }
+}
