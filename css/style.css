@@ -27,6 +27,9 @@ body{
     display: flex;
     align-items: center;
 }
+.navbar-brand img {
+   transition: all 0.5 ease-in-out;
+}
 .nav-link{
 
 font-weight: 600;
@@ -121,7 +124,7 @@ letter-spacing:0.5px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 2rem 6rem 25rem 0rem;
+    padding: 2rem 2rem 25rem 2rem;
     
 }
 .cta-section h1 {
@@ -138,6 +141,9 @@ letter-spacing:0.5px;
 }
 
 /* ----------------contact section ------------------------ */
+.contact {
+    overflow-x: hidden;
+}
 .contact h2 {
     font-size: 2rem;
     font-weight: 800;
@@ -156,15 +162,24 @@ letter-spacing:0.5px;
     width: 90%;
 }
 
+/* ----------------whyus section------------------------ */
+.why-us p {
+    font-size: 2rem;
+}
+
 /* ----------------sticky phone mobile ------------------------ */
 .sticky-phone {
     background-color: #cb292a;
     color: #fff;
     display: none;
-    z-index: 9999999999;
+    z-index: 9;
 }
 .sticky-phone p {
     text-align: center !important;
+}
+.sticky-phone a {
+    color: #fff;
+    font-size: 1.5rem;
 }
 /*---------------------copyrights--------------------------- */
 .copyright{
@@ -174,7 +189,6 @@ letter-spacing:0.5px;
     text-align: center; 
     width: 100%; color:
      white;
-      padding-bottom: 20px;
 }
 
 /* ------------------responsivness--------------------- */
@@ -191,6 +205,12 @@ letter-spacing:0.5px;
     }
     .margin{
         margin-left: 0px;
+    }
+    .contact-d {
+        padding-top: 1rem;
+    }
+    .cta-3{
+        padding-top: 2rem;
     }
    
 }
@@ -209,12 +229,44 @@ letter-spacing:0.5px;
         position: sticky;
         bottom: 0;
     }
+    .phonering-alo-ph-img-circle {
+        width:60px !important;
+        height:60px !important;
+        bottom:15% !important;
+        left:10%;
+    }
+    .navbar-brand img {
+        width: 45px;
+    }
+   .why-us {
+       padding-top: 0 !important;
+   }
+   .cta-section .cta-btn {
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.cta-section h1 {
+    text-align: center;
+}
+.contact h2 {
+    font-size: 1.5rem;
+}
+
 }
 @media (max-width:575.98px){
    
 }
 @media (max-width:500px){
-  
+    .why-us p {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width:367px){
+  .testi {
+      text-align: center;
+      padding-right: 0 !important;
+  }
+ 
 }
 
 
@@ -239,6 +291,7 @@ letter-spacing:0.5px;
     -ms-transform-origin:50% 50%;
     transform-origin:50% 50%;
     background-size: cover;
+    z-index: 99;
 }
 
 
